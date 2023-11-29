@@ -34,5 +34,5 @@ app.UseCors("AllowAll");
 app.UseAuthorization();
 
 app.MapControllers();
-//for checking only
+
 app.Run();
